@@ -12,7 +12,7 @@ document.querySelector('.composer button').addEventListener('click', ()=>{
 });
 
 
-//Funções
+//Funções   
 function playSound(sound) {
     let audioElement = document.querySelector(`#s_${sound}`);
     let keyElement = document.querySelector(`div[data-key="${sound}"]`)
